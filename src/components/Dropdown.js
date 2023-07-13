@@ -17,7 +17,6 @@ const Dropdown = ({ items }) => {
     
   };
 
-  let ItemVal = "";
   const handleItemSelected = (item) => {
     console.log("Selected Item", item);
     setItemVal(item);
